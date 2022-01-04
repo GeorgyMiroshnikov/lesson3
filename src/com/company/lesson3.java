@@ -25,6 +25,7 @@ public class lesson3
             default:
                 System.out.println("число не равно 1,8,9");
 
+        //public static void loops()
 
         }
         //ifelse
@@ -60,6 +61,18 @@ public class lesson3
             counter++;
             System.out.println(counter);
         }
+
+        //zadacha
+
+
+        int year = 1985;
+        while (year >= 1900){
+            if (year % 4 == 0){
+                System.out.println("Високосный год: " + year);
+            }
+            year--;
+        }
+
 
 
 
