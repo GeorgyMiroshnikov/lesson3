@@ -25,13 +25,15 @@ public class lesson3 {
 
         }
         //ifelse
-        if (num == 1) {
+        if (num == 2) {
             System.out.println("число равно 1");
         } else if (num == 8) {
             num++;
         } else {
-            System.out.println("число не ");
+            System.out.println("число не равно 1,8,9");
         }
+
+
     }
 }
 
