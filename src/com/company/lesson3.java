@@ -1,8 +1,11 @@
 package com.company;
 
-public class lesson3 {
+public class lesson3
+ {
 
-    public static void main(String[] args) {
+
+    public static void main(String[] args)
+    {
 
         int num = 0;
         switch (num) {
@@ -12,6 +15,7 @@ public class lesson3 {
 
             case 8:
                 System.out.println("число равно 8");
+                num++;
                 break;
 
             case 9:
@@ -19,11 +23,55 @@ public class lesson3 {
                 break;
 
             default:
-                System.out.println("число равно 1,8,9");
+                System.out.println("число не равно 1,8,9");
 
 
         }
+        //ifelse
+        if (num == 0) {
+            System.out.println("число равно 1");
+        } else if (num == 8) {
+            num++;
+        } else {
+            System.out.println("число не равно 1,8 и не равно 9");
+        }
+
+        //public static void comparisonsOperators(int num) МЕТОД БЫСТРЫХ ОПЕРАТОРОВ
+        //!= - оператор сравнения "не равно"
+        // && - быстрый оператор "и". Возвращает true только тогда, когда все выражения истинны
+        //  || - быстрый "или". Возвращает false только тогда, когда все выражения ложны
+
+
+
+        if (num != 0 && num != 8 && num != 9){
+            System.out.println("число не равно 1,8 или 9");
+        } else System.out.println("число равно 1, 8 и 9");
+
+        if (num == 0 || num == 1) {
+            System.out.println("число равно 0 или 1");
+        } else {
+            System.out.println("число не равно 0 или 1");
+        }
+
+        //public static void loops()
+
+        int counter = 1;
+        while (counter<100){
+            counter++;
+            System.out.println(counter);
+        }
+
+
+
     }
 
+ }
 
-}
+
+
+
+
+
+
+
+
