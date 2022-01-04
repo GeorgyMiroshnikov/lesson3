@@ -4,7 +4,7 @@ public class lesson3 {
 
     public static void main(String[] args) {
 
-        int num = 0;
+        int num = 1;
         switch (num) {
             case 1:
                 System.out.println("число равно 1");
