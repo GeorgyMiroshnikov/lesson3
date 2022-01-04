@@ -24,7 +24,18 @@ public class lesson3 {
 
 
         }
+        //ifelse
+        if (num == 1) {
+            System.out.println("число равно 1");
+        } else if (num == 8) {
+            num++;
+        } else {
+            System.out.println("число не ");
+        }
     }
-
-
 }
+
+
+
+
+
