@@ -21,7 +21,7 @@ public class Lesson3 {
                 System.out.println("число не равно 1,8,9");
         }
 
-        if (num == 0) {
+        if (num == 1) {
             System.out.println("число равно 1");
         } else if (num == 8) {
             num++;
@@ -34,7 +34,7 @@ public class Lesson3 {
     }
 
     public static void comparisonsOperators(int num) {
-        if (num != 0 && num != 8 && num != 9) {
+        if (num != 1 && num != 8 && num != 9) {
             System.out.println("число не равно 1,8 или 9");
         } else System.out.println("число равно 1, 8 и 9");
 
