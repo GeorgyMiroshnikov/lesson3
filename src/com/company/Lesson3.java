@@ -33,14 +33,14 @@ public class Lesson3 {
 
     public static void comparisonsOperators(int num) {
         if (num != 1 && num != 8 && num != 9) {
-            System.out.println("число не равно 1,8 или 9");
-        } else System.out.println("число равно 1, 8 и 9");
-
-
-        if (num == 0 || num == 1) {
-            System.out.println("число равно 1 или 8");
+            System.out.println("число не равно 1,8,9");
         } else {
-            System.out.println("число не равно 1 ни 8");
+            System.out.println("число равно 1, 8 или 9");
+        }
+        if (num == 0 || num == 1) {
+            System.out.println("число равно 1 или 0");
+        } else {
+            System.out.println("число не равно 1 ни 0");
         }
     }
 
