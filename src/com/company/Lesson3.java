@@ -1,9 +1,7 @@
 package com.company;
 
 public class Lesson3 {
-
     public static void main(String[] args) {
-
         int num = 0;
 
         switch (num) {
@@ -38,15 +36,15 @@ public class Lesson3 {
             System.out.println("число не равно 1,8 или 9");
         } else System.out.println("число равно 1, 8 и 9");
 
+
         if (num == 0 || num == 1) {
-            System.out.println("число равно 0 или 1");
+            System.out.println("число равно 1 или 8");
         } else {
-            System.out.println("число не равно 0 или 1");
+            System.out.println("число не равно 1 ни 8");
         }
     }
 
     public static void loops() {
-
         int counter = 1;
         while (counter < 100) {
             counter++;
